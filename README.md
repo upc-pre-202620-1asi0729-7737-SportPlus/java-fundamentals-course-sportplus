@@ -16,7 +16,7 @@ El código del curso y las actividades están disponibles en el repositorio del 
 
 ### Lección 1 · ¿Qué es Java y cómo se escribe un programa?
 
-**Descripción.** Para organizar un torneo necesitamos seguir un orden: anunciar el inicio, registrar a los participantes y mostrar los resultados. Un programa también sigue instrucciones en un orden determinado. En esta lección conocerás cómo se escriben esas instrucciones en Java y ejecutarás tu primer mensaje en el navegador. Identificaremos dónde comienza el programa y qué hace la instrucción `System.out.println`, observando la relación entre lo que escribimos y lo que aparece en la consola.
+**Descripción.** Aprende qué es la programación, qué es Java y para qué se utiliza. Conocerás la estructura básica de un programa, el método `main` y la instrucción `System.out.println` para mostrar mensajes en pantalla. Al terminar, podrás escribir y ejecutar tu primer programa desde el navegador.
 
 - **Conclusiones clave.** Un programa ejecuta instrucciones en orden. El método `main` es el punto de inicio y `System.out.println` muestra un mensaje en la consola.
 - **Ponlo en práctica.** Cambia el saludo del programa y agrega una segunda línea que anuncie el inicio del torneo. Antes de ejecutarlo, piensa en qué orden aparecerán los mensajes.
@@ -29,7 +29,7 @@ El código del curso y las actividades están disponibles en el repositorio del 
 
 ### Lección 2 · Variables, tipos de datos y operadores
 
-**Descripción.** Un marcador guarda información que cambia durante un partido. En nuestro programa utilizaremos variables para guardar el nombre de un jugador, sus aciertos y su puntaje. Veremos por qué un nombre se representa como texto y los aciertos como números enteros. Después calcularemos el resultado sumando un bono a los puntos obtenidos y usaremos una comparación para comprobar si el jugador alcanza la meta. Al cambiar un valor podremos observar cómo afecta al resultado.
+**Descripción.** Aprende a declarar variables y almacenar información utilizando tipos de datos como `int`, `String` y `boolean`. Verás cómo asignar y modificar valores, realizar cálculos con operadores aritméticos y comparar datos. También distinguirás entre trabajar con números y unir cadenas de texto.
 
 - **Conclusiones clave.** Cada variable tiene un tipo. Los operadores permiten calcular un puntaje y las comparaciones producen un valor `true` o `false`.
 - **Ponlo en práctica.** Calcula el puntaje de un jugador con tres aciertos y un punto de bono, considerando que cada acierto vale dos puntos. Cambia los aciertos y comprueba cuándo deja de alcanzar la meta.
@@ -42,7 +42,7 @@ El código del curso y las actividades están disponibles en el repositorio del 
 
 ### Lección 3 · Estructuras de control, decisiones y bucles
 
-**Descripción.** Las reglas de un torneo determinan quién clasifica. Traduciremos una de esas reglas a una condición: un jugador clasifica cuando obtiene al menos seis puntos. Luego veremos cómo repetir una tarea sin escribir la misma instrucción varias veces. Usaremos un bucle `for` para mostrar las rondas y un `while` para realizar una cuenta regresiva. Seguiremos los valores de los contadores para entender cuándo continúa cada bucle y cuándo termina.
+**Descripción.** Comprende cómo controlar el orden en que se ejecutan las instrucciones de un programa. Aprenderás a tomar decisiones con `if/else` y a repetir tareas mediante los bucles `for` y `while`. Revisarás las condiciones y los contadores que permiten iniciar, continuar y terminar una repetición.
 
 - **Conclusiones clave.** `if/else` permite elegir entre dos caminos. Los bucles repiten instrucciones y necesitan una condición que permita terminar.
 - **Ponlo en práctica.** Completa la cuenta regresiva desde cuatro hasta uno. Después cambia el puntaje a cinco y comprueba el mensaje de clasificación. Prueba también con seis para revisar el límite de la condición.
@@ -55,7 +55,7 @@ El código del curso y las actividades están disponibles en el repositorio del 
 
 ### Lección 4 · Métodos, parámetros y entrada de datos
 
-**Descripción.** Hasta este punto hemos escrito los datos directamente en el código. Ahora permitiremos que quien use el programa introduzca los aciertos y el bono. Para calcular el resultado crearemos un método que reciba esos dos valores y devuelva el puntaje. Puedes imaginarlo como una regla de cálculo que se aplica a distintas fichas de jugadores. Explicaremos qué información entra por los parámetros, qué operación se realiza y cómo se utiliza el valor que devuelve `return`.
+**Descripción.** Aprende a organizar y reutilizar código mediante métodos. Conocerás cómo definir parámetros, llamar a un método y devolver un resultado con `return`. Además, utilizarás `Scanner` para leer datos introducidos por el usuario y mostrarás los resultados en la consola.
 
 - **Conclusiones clave.** Un método recibe datos mediante parámetros y puede devolver un resultado con `return`. `Scanner` permite leer la entrada del usuario.
 - **Ponlo en práctica.** Completa el método de cálculo y ejecútalo con cuatro aciertos y dos puntos de bono. Repite la prueba con cero aciertos y tres de bono para comprobar que el método utiliza los datos recibidos.
@@ -68,7 +68,7 @@ El código del curso y las actividades están disponibles en el repositorio del 
 
 ### Lección 5 · Introducción a la programación orientada a objetos
 
-**Descripción.** Cuando hay varios participantes, conviene reunir el nombre y el puntaje de cada uno en una misma ficha. La clase `Jugador` describirá qué contiene esa ficha, y cada objeto representará a un participante concreto. Crearemos a Ana y Luis usando un constructor y consultaremos sus datos mediante métodos. Después protegeremos el puntaje con un atributo privado y un setter que permita actualizarlo cuando el valor sea válido. Así veremos cómo los datos y el comportamiento se relacionan dentro de un objeto.
+**Descripción.** Conoce los fundamentos de la programación orientada a objetos y la diferencia entre una clase y un objeto. Aprenderás a definir atributos y métodos, crear objetos con `new` e inicializarlos mediante constructores. También estudiarás la encapsulación usando atributos privados, getters y setters para controlar el acceso a los datos.
 
 - **Conclusiones clave.** Una clase define atributos y comportamientos. El constructor inicializa cada objeto y los getters y setters permiten consultar y actualizar sus datos.
 - **Ponlo en práctica.** Crea un tercer jugador, cambia su puntaje a ocho e intenta asignarle un valor negativo. Consulta el resultado con el getter y explica por qué conserva el último puntaje válido.
@@ -81,7 +81,7 @@ El código del curso y las actividades están disponibles en el repositorio del 
 
 ### Lección 6 · Registro de jugadores, programa completo y cierre
 
-**Descripción.** Reuniremos lo aprendido en un programa que registra a varios jugadores y muestra sus resultados. Un arreglo permitirá guardar sus fichas en posiciones numeradas. Recorreremos esas posiciones para leer los datos y después presentar quiénes clasifican. También probaremos situaciones que pueden ocurrir al usar el programa, como dejar un nombre vacío o escribir una palabra donde se espera un número. Cerraremos revisando cómo interpretar un mensaje de error y cómo elegir nombres claros para las variables y los métodos.
+**Descripción.** Integra variables, condiciones, bucles, métodos y objetos en un programa completo. Aprenderás a almacenar objetos en un arreglo, recorrer sus posiciones y validar los datos que introduce el usuario. Para cerrar, revisarás errores comunes de sintaxis y ejecución, junto con buenas prácticas para escribir código claro y ordenado.
 
 - **Conclusiones clave.** Un arreglo puede guardar varios objetos. Los bucles permiten recorrerlos y la validación ayuda a manejar entradas incorrectas.
 - **Ponlo en práctica.** Completa la condición que muestra quién clasifica. Registra a Ana con nueve puntos y a Luis con cuatro, revisa sus resultados y prueba una entrada incorrecta para observar cómo vuelve a solicitarse el dato.
