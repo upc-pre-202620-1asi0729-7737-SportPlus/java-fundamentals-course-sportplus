@@ -1,71 +1,94 @@
-# Fundamentos de Java para principiantes
+# Curso de fundamentos de Java para principiantes
 
-Aprende a programar construyendo un registro de puntajes para un torneo escolar. Al terminar podrás leer datos del teclado, guardar varios jugadores y mostrar quiénes clasifican.
+## Resumen del curso
 
-- **Público:** estudiantes de secundaria de 12 a 17 años que están empezando a programar.
-- **Duración prevista:** 60 minutos en seis lecciones.
-- **Requisitos:** navegador con conexión a internet. El curso se puede practicar sin instalar software.
-- **Código fuente:** [Repositorio del curso](https://github.com/upc-pre-202620-1asi0729-7737-SportPlus/java-fundamentals-course-sportplus).
+Este curso está dirigido a estudiantes de secundaria que quieren aprender a programar desde cero. A lo largo de las lecciones construiremos un registro de puntajes para un torneo escolar. Comenzaremos mostrando un mensaje en pantalla y, poco a poco, incorporaremos nombres, resultados, decisiones y objetos hasta poder registrar a varios jugadores.
 
-## Cómo practicar
+Los ejemplos se trabajan directamente en el navegador. Cada lección incluye una práctica con el código inicial y una versión resuelta para comparar los resultados. Puedes detenerte, modificar los datos y volver a ejecutar el programa mientras sigues la explicación.
 
-1. Selecciona **Abrir práctica** para cargar el código inicial en Compiler Explorer.
-2. Edita el código en el panel de Java y revisa el resultado en el panel de ejecución. Las lecciones 4 y 6 llevan datos de ejemplo. Usa el campo de entrada estándar (stdin) para cambiarlos, con un dato por línea.
-3. Resuelve el reto y compara tu resultado con el **Ejemplo resuelto**. Cada lección se ejecuta por separado.
+- **Público objetivo.** Estudiantes de 12 a 17 años sin experiencia previa en programación.
+- **Prerrequisitos.** Manejo básico del navegador y del teclado.
+- **Herramientas necesarias.** Un navegador web y conexión a internet.
 
-Si quieres escribir los datos en una consola interactiva, copia el archivo **Inicio** completo al [compilador Java de OnlineGDB](https://www.onlinegdb.com/online_java_compiler) y pulsa **Run**.
+El código del curso y las actividades están disponibles en el repositorio del equipo. [Repositorio de GitHub](https://github.com/upc-pre-202620-1asi0729-7737-SportPlus/java-fundamentals-course-sportplus).
 
-## Lecciones
+## Secuencia de lecciones
 
-| # | Lección | Duración | Código | Video | Editor precargado |
-|---|---|---:|---|---|---|
-| 1 | [Introducción a Java y primer programa](#lección-1) | 7 min | [Inicio](starter-files/01-introduccion/Main.java) · [Ejemplo resuelto](completed-examples/01-introduccion/Main.java) | Por grabar | [Abrir práctica][practica-1] |
-| 2 | [Variables, tipos y operadores](#lección-2) | 10 min | [Inicio](starter-files/02-variables/Main.java) · [Ejemplo resuelto](completed-examples/02-variables/Main.java) | Por grabar | [Abrir práctica][practica-2] |
-| 3 | [Decisiones y bucles](#lección-3) | 10 min | [Inicio](starter-files/03-control/Main.java) · [Ejemplo resuelto](completed-examples/03-control/Main.java) | Por grabar | [Abrir práctica][practica-3] |
-| 4 | [Métodos, parámetros y entrada/salida](#lección-4) | 9 min | [Inicio](starter-files/04-metodos/Main.java) · [Ejemplo resuelto](completed-examples/04-metodos/Main.java) | Por grabar | [Abrir práctica][practica-4] |
-| 5 | [Clases, objetos y encapsulación](#lección-5) | 11 min | [Inicio](starter-files/05-poo/Main.java) · [Ejemplo resuelto](completed-examples/05-poo/Main.java) | Por grabar | [Abrir práctica][practica-5] |
-| 6 | [Proyecto final y errores comunes](#lección-6) | 13 min | [Inicio](starter-files/06-proyecto/Main.java) · [Ejemplo resuelto](completed-examples/06-proyecto/Main.java) | Por grabar | [Abrir práctica][practica-6] |
-| | **Total** | **60 min** | | | |
+### Lección 1 · ¿Qué es Java y cómo se escribe un programa?
 
-### Lección 1
+- **Temas clave.** Programación, instrucciones, estructura básica de Java y salida por consola.
+- **Enfoque didáctico y ejemplo.** Para organizar un torneo necesitamos seguir un orden: anunciar el inicio, registrar a los participantes y mostrar los resultados. Un programa también sigue instrucciones en un orden determinado. En esta lección conocerás cómo se escriben esas instrucciones en Java y ejecutarás tu primer mensaje en el navegador. Identificaremos dónde comienza el programa y qué hace la instrucción `System.out.println`, observando la relación entre lo que escribimos y lo que aparece en la consola.
+- **Actividad práctica.** Cambia el saludo del programa y agrega una segunda línea que anuncie el inicio del torneo. Antes de ejecutarlo, piensa en qué orden aparecerán los mensajes.
 
-**Introducción a Java y primer programa** (7 min). Explicar qué es programar y mostrar un mensaje con `System.out.println`.
+Puedes comenzar con el código preparado y consultar la solución al terminar. [Abrir práctica][practica-1] · [Código inicial](starter-files/01-introduccion/Main.java) · [Ejemplo resuelto](completed-examples/01-introduccion/Main.java).
 
-**Reto.** Cambia el saludo y agrega una segunda línea que diga `El torneo va a comenzar.`
+**Enlace a la lección.** Pendiente de agregar el video.
+<!-- Reemplazar la línea anterior por el enlace real al video no listado de esta lección. -->
 
-### Lección 2
+### Lección 2 · Variables, tipos de datos y operadores
 
-**Variables, tipos y operadores** (10 min). Guardar un nombre, calcular el puntaje con operadores y comprobar si alcanza la meta.
+- **Temas clave.** Variables, `String`, `int`, `boolean`, operaciones aritméticas y comparaciones.
+- **Enfoque didáctico y ejemplo.** Un marcador guarda información que cambia durante un partido. En nuestro programa utilizaremos variables para guardar el nombre de un jugador, sus aciertos y su puntaje. Veremos por qué un nombre se representa como texto y los aciertos como números enteros. Después calcularemos el resultado sumando un bono a los puntos obtenidos y usaremos una comparación para comprobar si el jugador alcanza la meta. Al cambiar un valor podremos observar cómo afecta al resultado.
+- **Actividad práctica.** Calcula el puntaje de un jugador con tres aciertos y un punto de bono, considerando que cada acierto vale dos puntos. Cambia los aciertos y comprueba cuándo deja de alcanzar la meta.
 
-**Reto.** Calcula el puntaje con 3 aciertos y 1 bono. Cada acierto vale 2 puntos.
+Puedes comenzar con el código preparado y consultar la solución al terminar. [Abrir práctica][practica-2] · [Código inicial](starter-files/02-variables/Main.java) · [Ejemplo resuelto](completed-examples/02-variables/Main.java).
 
-### Lección 3
+**Enlace a la lección.** Pendiente de agregar el video.
+<!-- Reemplazar la línea anterior por el enlace real al video no listado de esta lección. -->
 
-**Decisiones y bucles** (10 min). Usar `if/else` para decidir si alguien clasifica, `for` para recorrer rondas y `while` para contar hasta el inicio.
+### Lección 3 · Estructuras de control, decisiones y bucles
 
-**Reto.** Completa la cuenta regresiva con `while`, empieza en 4 y cambia el puntaje a 5. Predice la clasificación y cuántos números verás.
+- **Temas clave.** Condiciones con `if/else`, comparaciones y repeticiones con `for` y `while`.
+- **Enfoque didáctico y ejemplo.** Las reglas de un torneo determinan quién clasifica. Traduciremos una de esas reglas a una condición: un jugador clasifica cuando obtiene al menos seis puntos. Luego veremos cómo repetir una tarea sin escribir la misma instrucción varias veces. Usaremos un bucle `for` para mostrar las rondas y un `while` para realizar una cuenta regresiva. Seguiremos los valores de los contadores para entender cuándo continúa cada bucle y cuándo termina.
+- **Actividad práctica.** Completa la cuenta regresiva desde cuatro hasta uno. Después cambia el puntaje a cinco y comprueba el mensaje de clasificación. Prueba también con seis para revisar el límite de la condición.
 
-### Lección 4
+Puedes comenzar con el código preparado y consultar la solución al terminar. [Abrir práctica][practica-3] · [Código inicial](starter-files/03-control/Main.java) · [Ejemplo resuelto](completed-examples/03-control/Main.java).
 
-**Métodos, parámetros y entrada/salida** (9 min). Leer dos números con `Scanner` y usar un método con parámetros y un valor de retorno.
+**Enlace a la lección.** Pendiente de agregar el video.
+<!-- Reemplazar la línea anterior por el enlace real al video no listado de esta lección. -->
 
-**Reto.** Ejecuta el programa con 4 aciertos y 2 de bono. Luego prueba con 0 y 3.
+### Lección 4 · Métodos, parámetros y entrada de datos
 
-### Lección 5
+- **Temas clave.** Métodos, parámetros, valores de retorno y lectura de datos con `Scanner`.
+- **Enfoque didáctico y ejemplo.** Hasta este punto hemos escrito los datos directamente en el código. Ahora permitiremos que quien use el programa introduzca los aciertos y el bono. Para calcular el resultado crearemos un método que reciba esos dos valores y devuelva el puntaje. Puedes imaginarlo como una regla de cálculo que se aplica a distintas fichas de jugadores. Explicaremos qué información entra por los parámetros, qué operación se realiza y cómo se utiliza el valor que devuelve `return`.
+- **Actividad práctica.** Completa el método de cálculo y ejecútalo con cuatro aciertos y dos puntos de bono. Repite la prueba con cero aciertos y tres de bono para comprobar que el método utiliza los datos recibidos.
 
-**Clases, objetos y encapsulación** (11 min). Crear dos objetos `Jugador` con un constructor y usar getters y un setter para consultar y actualizar su puntaje.
+Puedes comenzar con el código preparado y consultar la solución al terminar. [Abrir práctica][practica-4] · [Código inicial](starter-files/04-metodos/Main.java) · [Ejemplo resuelto](completed-examples/04-metodos/Main.java).
 
-**Reto.** Crea otro jugador y actualiza su puntaje a 8. Intenta cambiarlo a -1 y observa qué valor conserva.
+**Enlace a la lección.** Pendiente de agregar el video.
+<!-- Reemplazar la línea anterior por el enlace real al video no listado de esta lección. -->
 
-### Lección 6
+### Lección 5 · Introducción a la programación orientada a objetos
 
-**Proyecto final y errores comunes** (13 min). Registrar jugadores, recorrer un arreglo de objetos y mostrar qué jugadores clasifican.
+- **Temas clave.** Clases, atributos, objetos, constructores, instanciación y encapsulación con getters y setters.
+- **Enfoque didáctico y ejemplo.** Cuando hay varios participantes, conviene reunir el nombre y el puntaje de cada uno en una misma ficha. La clase `Jugador` describirá qué contiene esa ficha, y cada objeto representará a un participante concreto. Crearemos a Ana y Luis usando un constructor y consultaremos sus datos mediante métodos. Después protegeremos el puntaje con un atributo privado y un setter que permita actualizarlo cuando el valor sea válido. Así veremos cómo los datos y el comportamiento se relacionan dentro de un objeto.
+- **Actividad práctica.** Crea un tercer jugador, cambia su puntaje a ocho e intenta asignarle un valor negativo. Consulta el resultado con el getter y explica por qué conserva el último puntaje válido.
 
-**Reto.** Completa el `if/else` para mostrar quién clasifica. Prueba con dos jugadores de 9 y 4 puntos. Luego prueba una entrada inválida, como `hola`.
+Puedes comenzar con el código preparado y consultar la solución al terminar. [Abrir práctica][practica-5] · [Código inicial](starter-files/05-poo/Main.java) · [Ejemplo resuelto](completed-examples/05-poo/Main.java).
 
-## Comprueba tu proyecto
+**Enlace a la lección.** Pendiente de agregar el video.
+<!-- Reemplazar la línea anterior por el enlace real al video no listado de esta lección. -->
 
-Con dos jugadores, Ana con 9 puntos y Luis con 4, el programa debe mostrar a Ana como clasificada y a Luis como no clasificado. La clasificación empieza en 6 puntos. El registro admite de 1 a 5 jugadores y vuelve a pedir el dato si recibe un nombre vacío, texto donde espera un número o un puntaje negativo. Usa nombres ficticios para practicar.
+### Lección 6 · Registro de jugadores, programa completo y cierre
+
+- **Temas clave.** Arreglos de objetos, entrada de datos, recorridos, integración de conceptos y errores comunes.
+- **Enfoque didáctico y ejemplo.** Reuniremos lo aprendido en un programa que registra a varios jugadores y muestra sus resultados. Un arreglo permitirá guardar sus fichas en posiciones numeradas. Recorreremos esas posiciones para leer los datos y después presentar quiénes clasifican. También probaremos situaciones que pueden ocurrir al usar el programa, como dejar un nombre vacío o escribir una palabra donde se espera un número. Cerraremos revisando cómo interpretar un mensaje de error y cómo elegir nombres claros para las variables y los métodos.
+- **Actividad práctica.** Completa la condición que muestra quién clasifica. Registra a Ana con nueve puntos y a Luis con cuatro, revisa sus resultados y prueba una entrada incorrecta para observar cómo vuelve a solicitarse el dato.
+
+Puedes comenzar con el código preparado y consultar la solución al terminar. [Abrir práctica][practica-6] · [Código inicial](starter-files/06-proyecto/Main.java) · [Ejemplo resuelto](completed-examples/06-proyecto/Main.java).
+
+**Enlace a la lección.** Pendiente de agregar el video.
+<!-- Reemplazar la línea anterior por el enlace real al video no listado de esta lección. -->
+
+## Cómo utilizar las prácticas
+
+Selecciona **Abrir práctica** para cargar el ejercicio en Compiler Explorer. Escribe tus cambios en el panel de Java y observa el resultado en el panel de ejecución. En las lecciones que reciben datos, modifica la entrada estándar, identificada como `stdin`, colocando un dato en cada línea.
+
+También puedes copiar el código inicial completo en OnlineGDB y pulsar **Run** para trabajar con su consola interactiva. Ejecuta una lección a la vez. [Abrir OnlineGDB](https://www.onlinegdb.com/online_java_compiler).
+
+## Para seguir practicando
+
+Cuando completes el registro, modifica el puntaje mínimo de clasificación y prueba con valores por debajo, por encima e iguales al nuevo límite. Después intenta mostrar cuántos jugadores clasificaron. Estas pequeñas modificaciones te ayudarán a comprobar qué parte del programa controla cada resultado.
 
 ## Elaboración
 
@@ -80,7 +103,8 @@ Con dos jugadores, Ana con 9 puntos y Luis con 4, el programa debe mostrar a Ana
 - Marlon Packard Viza Quispe
 - Eduardo Jesus Osorio Ramirez
 
-Los [guiones de grabación](scripts/) contienen las demostraciones, pausas y pruebas de cada lección. Antes de la entrega, completen el nombre del líder y la fecha, agreguen los enlaces a los videos no listados a la tabla y los enlaces de práctica a sus descripciones, y exporten este plan a PDF. Cada integrante debe aportar desde su cuenta para que su participación quede registrada en los commits.
+
+Los guiones incluyen las demostraciones y las pausas de práctica para preparar las grabaciones. [Guiones de las lecciones](scripts/).
 
 [practica-1]: https://godbolt.org/clientstate/eJxNULluwzAM_RVCUwIEjpNu7dStS6eMsQdGUgUWEuXqCFoY-fdSjntQAqh3iADfrLLNmSJn9QjnWZGRftiB8siuorMC1TteUQmXY016YbTHnOEViWEeGKSmevGkIRcs0q6RDASRN6eSiN15BEwub3_crU5fudjQxVq6STzF82ZQL9HjDkJlEwe1ffpz7_fw7JJ1CPhRh9r31kBlhGydmBGIc0lVa2ra2wPDhAkhRGExgfViIE0RjDxLTGxjdx9-G1huW0_HMJG3aYliFMJ-Wl3FvGYjG9RguTSo_n8QvCa3RHU89Mcme7r8jopTWUNW6taiLIb4jkY536cQfNY
 [practica-2]: https://godbolt.org/clientstate/eJx9UttuwjAM_RUrTyAmKCDtYROb-ACkaTxSHtzWVEGp0-WCGIh_n9tyG5OWVkp8zontJOeoPHmvLXv1Aquj0oXM4ydQBrmMWJKEaos7VIJ5G13eIrlB72GBmuGYMsioY2Z0Dj5gkGlndQGV0L1lcJrL1RrQlb5_UTejY2AbSyysgxmkas6YqtebRHMAzDW5YL0Ipg9UHVmID-vmnUYkkwdJZrmBxwLfiNEIPomq2uABIYFaqkdGoH3tyOs0JslmyvAVCXI0eTQEZNpiuKXh3xYElRLJXeXMWkPIILuRD7iggKK4aN9m8Pyrn-W3D1QNbQzDWu4kGO5dbmUgtwJBE1OzGFxztHh3_mGq-q__JktVc6ZsM-_aAYNQSUvvXcq7Ji95TinL3zx5bqtaG3KtPdYC0J7yGKw7-0VeNVbEoQnV_QaJz25q7TMZJ5OGNjq7prJ1OBtPqVNjr1Bo7qK1fD_y783E
