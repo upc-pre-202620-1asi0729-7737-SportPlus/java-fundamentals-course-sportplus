@@ -16,75 +16,85 @@ El código del curso y las actividades están disponibles en el repositorio del 
 
 ### Lección 1 · ¿Qué es Java y cómo se escribe un programa?
 
-- **Temas clave.** Programación, instrucciones, estructura básica de Java y salida por consola.
-- **Enfoque didáctico y ejemplo.** Para organizar un torneo necesitamos seguir un orden: anunciar el inicio, registrar a los participantes y mostrar los resultados. Un programa también sigue instrucciones en un orden determinado. En esta lección conocerás cómo se escriben esas instrucciones en Java y ejecutarás tu primer mensaje en el navegador. Identificaremos dónde comienza el programa y qué hace la instrucción `System.out.println`, observando la relación entre lo que escribimos y lo que aparece en la consola.
-- **Actividad práctica.** Cambia el saludo del programa y agrega una segunda línea que anuncie el inicio del torneo. Antes de ejecutarlo, piensa en qué orden aparecerán los mensajes.
+**Descripción.** Para organizar un torneo necesitamos seguir un orden: anunciar el inicio, registrar a los participantes y mostrar los resultados. Un programa también sigue instrucciones en un orden determinado. En esta lección conocerás cómo se escriben esas instrucciones en Java y ejecutarás tu primer mensaje en el navegador. Identificaremos dónde comienza el programa y qué hace la instrucción `System.out.println`, observando la relación entre lo que escribimos y lo que aparece en la consola.
 
-Puedes comenzar con el código preparado y consultar la solución al terminar. [Abrir práctica][practica-1] · [Código inicial](starter-files/01-introduccion/Main.java) · [Ejemplo resuelto](completed-examples/01-introduccion/Main.java).
+- **Conclusiones clave.** Un programa ejecuta instrucciones en orden. El método `main` es el punto de inicio y `System.out.println` muestra un mensaje en la consola.
+- **Ponlo en práctica.** Cambia el saludo del programa y agrega una segunda línea que anuncie el inicio del torneo. Antes de ejecutarlo, piensa en qué orden aparecerán los mensajes.
+- **Enlace al video.** Pendiente de agregar.
+- **Empieza a programar.** [Clic para programar][practica-1]
 
-**Enlace a la lección.** Pendiente de agregar el video.
-<!-- Reemplazar la línea anterior por el enlace real al video no listado de esta lección. -->
+<!-- Sustituir "Pendiente de agregar" por [Ver la lección](URL_DEL_VIDEO) cuando se publique el video. -->
+
+---
 
 ### Lección 2 · Variables, tipos de datos y operadores
 
-- **Temas clave.** Variables, `String`, `int`, `boolean`, operaciones aritméticas y comparaciones.
-- **Enfoque didáctico y ejemplo.** Un marcador guarda información que cambia durante un partido. En nuestro programa utilizaremos variables para guardar el nombre de un jugador, sus aciertos y su puntaje. Veremos por qué un nombre se representa como texto y los aciertos como números enteros. Después calcularemos el resultado sumando un bono a los puntos obtenidos y usaremos una comparación para comprobar si el jugador alcanza la meta. Al cambiar un valor podremos observar cómo afecta al resultado.
-- **Actividad práctica.** Calcula el puntaje de un jugador con tres aciertos y un punto de bono, considerando que cada acierto vale dos puntos. Cambia los aciertos y comprueba cuándo deja de alcanzar la meta.
+**Descripción.** Un marcador guarda información que cambia durante un partido. En nuestro programa utilizaremos variables para guardar el nombre de un jugador, sus aciertos y su puntaje. Veremos por qué un nombre se representa como texto y los aciertos como números enteros. Después calcularemos el resultado sumando un bono a los puntos obtenidos y usaremos una comparación para comprobar si el jugador alcanza la meta. Al cambiar un valor podremos observar cómo afecta al resultado.
 
-Puedes comenzar con el código preparado y consultar la solución al terminar. [Abrir práctica][practica-2] · [Código inicial](starter-files/02-variables/Main.java) · [Ejemplo resuelto](completed-examples/02-variables/Main.java).
+- **Conclusiones clave.** Cada variable tiene un tipo. Los operadores permiten calcular un puntaje y las comparaciones producen un valor `true` o `false`.
+- **Ponlo en práctica.** Calcula el puntaje de un jugador con tres aciertos y un punto de bono, considerando que cada acierto vale dos puntos. Cambia los aciertos y comprueba cuándo deja de alcanzar la meta.
+- **Enlace al video.** Pendiente de agregar.
+- **Empieza a programar.** [Clic para programar][practica-2]
 
-**Enlace a la lección.** Pendiente de agregar el video.
-<!-- Reemplazar la línea anterior por el enlace real al video no listado de esta lección. -->
+<!-- Sustituir "Pendiente de agregar" por [Ver la lección](URL_DEL_VIDEO) cuando se publique el video. -->
+
+---
 
 ### Lección 3 · Estructuras de control, decisiones y bucles
 
-- **Temas clave.** Condiciones con `if/else`, comparaciones y repeticiones con `for` y `while`.
-- **Enfoque didáctico y ejemplo.** Las reglas de un torneo determinan quién clasifica. Traduciremos una de esas reglas a una condición: un jugador clasifica cuando obtiene al menos seis puntos. Luego veremos cómo repetir una tarea sin escribir la misma instrucción varias veces. Usaremos un bucle `for` para mostrar las rondas y un `while` para realizar una cuenta regresiva. Seguiremos los valores de los contadores para entender cuándo continúa cada bucle y cuándo termina.
-- **Actividad práctica.** Completa la cuenta regresiva desde cuatro hasta uno. Después cambia el puntaje a cinco y comprueba el mensaje de clasificación. Prueba también con seis para revisar el límite de la condición.
+**Descripción.** Las reglas de un torneo determinan quién clasifica. Traduciremos una de esas reglas a una condición: un jugador clasifica cuando obtiene al menos seis puntos. Luego veremos cómo repetir una tarea sin escribir la misma instrucción varias veces. Usaremos un bucle `for` para mostrar las rondas y un `while` para realizar una cuenta regresiva. Seguiremos los valores de los contadores para entender cuándo continúa cada bucle y cuándo termina.
 
-Puedes comenzar con el código preparado y consultar la solución al terminar. [Abrir práctica][practica-3] · [Código inicial](starter-files/03-control/Main.java) · [Ejemplo resuelto](completed-examples/03-control/Main.java).
+- **Conclusiones clave.** `if/else` permite elegir entre dos caminos. Los bucles repiten instrucciones y necesitan una condición que permita terminar.
+- **Ponlo en práctica.** Completa la cuenta regresiva desde cuatro hasta uno. Después cambia el puntaje a cinco y comprueba el mensaje de clasificación. Prueba también con seis para revisar el límite de la condición.
+- **Enlace al video.** Pendiente de agregar.
+- **Empieza a programar.** [Clic para programar][practica-3]
 
-**Enlace a la lección.** Pendiente de agregar el video.
-<!-- Reemplazar la línea anterior por el enlace real al video no listado de esta lección. -->
+<!-- Sustituir "Pendiente de agregar" por [Ver la lección](URL_DEL_VIDEO) cuando se publique el video. -->
+
+---
 
 ### Lección 4 · Métodos, parámetros y entrada de datos
 
-- **Temas clave.** Métodos, parámetros, valores de retorno y lectura de datos con `Scanner`.
-- **Enfoque didáctico y ejemplo.** Hasta este punto hemos escrito los datos directamente en el código. Ahora permitiremos que quien use el programa introduzca los aciertos y el bono. Para calcular el resultado crearemos un método que reciba esos dos valores y devuelva el puntaje. Puedes imaginarlo como una regla de cálculo que se aplica a distintas fichas de jugadores. Explicaremos qué información entra por los parámetros, qué operación se realiza y cómo se utiliza el valor que devuelve `return`.
-- **Actividad práctica.** Completa el método de cálculo y ejecútalo con cuatro aciertos y dos puntos de bono. Repite la prueba con cero aciertos y tres de bono para comprobar que el método utiliza los datos recibidos.
+**Descripción.** Hasta este punto hemos escrito los datos directamente en el código. Ahora permitiremos que quien use el programa introduzca los aciertos y el bono. Para calcular el resultado crearemos un método que reciba esos dos valores y devuelva el puntaje. Puedes imaginarlo como una regla de cálculo que se aplica a distintas fichas de jugadores. Explicaremos qué información entra por los parámetros, qué operación se realiza y cómo se utiliza el valor que devuelve `return`.
 
-Puedes comenzar con el código preparado y consultar la solución al terminar. [Abrir práctica][practica-4] · [Código inicial](starter-files/04-metodos/Main.java) · [Ejemplo resuelto](completed-examples/04-metodos/Main.java).
+- **Conclusiones clave.** Un método recibe datos mediante parámetros y puede devolver un resultado con `return`. `Scanner` permite leer la entrada del usuario.
+- **Ponlo en práctica.** Completa el método de cálculo y ejecútalo con cuatro aciertos y dos puntos de bono. Repite la prueba con cero aciertos y tres de bono para comprobar que el método utiliza los datos recibidos.
+- **Enlace al video.** Pendiente de agregar.
+- **Empieza a programar.** [Clic para programar][practica-4]
 
-**Enlace a la lección.** Pendiente de agregar el video.
-<!-- Reemplazar la línea anterior por el enlace real al video no listado de esta lección. -->
+<!-- Sustituir "Pendiente de agregar" por [Ver la lección](URL_DEL_VIDEO) cuando se publique el video. -->
+
+---
 
 ### Lección 5 · Introducción a la programación orientada a objetos
 
-- **Temas clave.** Clases, atributos, objetos, constructores, instanciación y encapsulación con getters y setters.
-- **Enfoque didáctico y ejemplo.** Cuando hay varios participantes, conviene reunir el nombre y el puntaje de cada uno en una misma ficha. La clase `Jugador` describirá qué contiene esa ficha, y cada objeto representará a un participante concreto. Crearemos a Ana y Luis usando un constructor y consultaremos sus datos mediante métodos. Después protegeremos el puntaje con un atributo privado y un setter que permita actualizarlo cuando el valor sea válido. Así veremos cómo los datos y el comportamiento se relacionan dentro de un objeto.
-- **Actividad práctica.** Crea un tercer jugador, cambia su puntaje a ocho e intenta asignarle un valor negativo. Consulta el resultado con el getter y explica por qué conserva el último puntaje válido.
+**Descripción.** Cuando hay varios participantes, conviene reunir el nombre y el puntaje de cada uno en una misma ficha. La clase `Jugador` describirá qué contiene esa ficha, y cada objeto representará a un participante concreto. Crearemos a Ana y Luis usando un constructor y consultaremos sus datos mediante métodos. Después protegeremos el puntaje con un atributo privado y un setter que permita actualizarlo cuando el valor sea válido. Así veremos cómo los datos y el comportamiento se relacionan dentro de un objeto.
 
-Puedes comenzar con el código preparado y consultar la solución al terminar. [Abrir práctica][practica-5] · [Código inicial](starter-files/05-poo/Main.java) · [Ejemplo resuelto](completed-examples/05-poo/Main.java).
+- **Conclusiones clave.** Una clase define atributos y comportamientos. El constructor inicializa cada objeto y los getters y setters permiten consultar y actualizar sus datos.
+- **Ponlo en práctica.** Crea un tercer jugador, cambia su puntaje a ocho e intenta asignarle un valor negativo. Consulta el resultado con el getter y explica por qué conserva el último puntaje válido.
+- **Enlace al video.** Pendiente de agregar.
+- **Empieza a programar.** [Clic para programar][practica-5]
 
-**Enlace a la lección.** Pendiente de agregar el video.
-<!-- Reemplazar la línea anterior por el enlace real al video no listado de esta lección. -->
+<!-- Sustituir "Pendiente de agregar" por [Ver la lección](URL_DEL_VIDEO) cuando se publique el video. -->
+
+---
 
 ### Lección 6 · Registro de jugadores, programa completo y cierre
 
-- **Temas clave.** Arreglos de objetos, entrada de datos, recorridos, integración de conceptos y errores comunes.
-- **Enfoque didáctico y ejemplo.** Reuniremos lo aprendido en un programa que registra a varios jugadores y muestra sus resultados. Un arreglo permitirá guardar sus fichas en posiciones numeradas. Recorreremos esas posiciones para leer los datos y después presentar quiénes clasifican. También probaremos situaciones que pueden ocurrir al usar el programa, como dejar un nombre vacío o escribir una palabra donde se espera un número. Cerraremos revisando cómo interpretar un mensaje de error y cómo elegir nombres claros para las variables y los métodos.
-- **Actividad práctica.** Completa la condición que muestra quién clasifica. Registra a Ana con nueve puntos y a Luis con cuatro, revisa sus resultados y prueba una entrada incorrecta para observar cómo vuelve a solicitarse el dato.
+**Descripción.** Reuniremos lo aprendido en un programa que registra a varios jugadores y muestra sus resultados. Un arreglo permitirá guardar sus fichas en posiciones numeradas. Recorreremos esas posiciones para leer los datos y después presentar quiénes clasifican. También probaremos situaciones que pueden ocurrir al usar el programa, como dejar un nombre vacío o escribir una palabra donde se espera un número. Cerraremos revisando cómo interpretar un mensaje de error y cómo elegir nombres claros para las variables y los métodos.
 
-Puedes comenzar con el código preparado y consultar la solución al terminar. [Abrir práctica][practica-6] · [Código inicial](starter-files/06-proyecto/Main.java) · [Ejemplo resuelto](completed-examples/06-proyecto/Main.java).
+- **Conclusiones clave.** Un arreglo puede guardar varios objetos. Los bucles permiten recorrerlos y la validación ayuda a manejar entradas incorrectas.
+- **Ponlo en práctica.** Completa la condición que muestra quién clasifica. Registra a Ana con nueve puntos y a Luis con cuatro, revisa sus resultados y prueba una entrada incorrecta para observar cómo vuelve a solicitarse el dato.
+- **Enlace al video.** Pendiente de agregar.
+- **Empieza a programar.** [Clic para programar][practica-6]
 
-**Enlace a la lección.** Pendiente de agregar el video.
-<!-- Reemplazar la línea anterior por el enlace real al video no listado de esta lección. -->
+<!-- Sustituir "Pendiente de agregar" por [Ver la lección](URL_DEL_VIDEO) cuando se publique el video. -->
+
+---
 
 ## Cómo utilizar las prácticas
 
-Selecciona **Abrir práctica** para cargar el ejercicio en Compiler Explorer. Escribe tus cambios en el panel de Java y observa el resultado en el panel de ejecución. En las lecciones que reciben datos, modifica la entrada estándar, identificada como `stdin`, colocando un dato en cada línea.
-
-También puedes copiar el código inicial completo en OnlineGDB y pulsar **Run** para trabajar con su consola interactiva. Ejecuta una lección a la vez. [Abrir OnlineGDB](https://www.onlinegdb.com/online_java_compiler).
+Selecciona **Clic para programar** para cargar el ejercicio en Compiler Explorer. Escribe tus cambios en el panel de Java y observa el resultado en el panel de ejecución. En las lecciones que reciben datos, modifica la entrada estándar, identificada como `stdin`, colocando un dato en cada línea.
 
 ## Para seguir practicando
 
@@ -103,8 +113,6 @@ Cuando completes el registro, modifica el puntaje mínimo de clasificación y pr
 - Marlon Packard Viza Quispe
 - Eduardo Jesus Osorio Ramirez
 
-
-Los guiones incluyen las demostraciones y las pausas de práctica para preparar las grabaciones. [Guiones de las lecciones](scripts/).
 
 [practica-1]: https://godbolt.org/clientstate/eJxNULluwzAM_RVCUwIEjpNu7dStS6eMsQdGUgUWEuXqCFoY-fdSjntQAqh3iADfrLLNmSJn9QjnWZGRftiB8siuorMC1TteUQmXY016YbTHnOEViWEeGKSmevGkIRcs0q6RDASRN6eSiN15BEwub3_crU5fudjQxVq6STzF82ZQL9HjDkJlEwe1ffpz7_fw7JJ1CPhRh9r31kBlhGydmBGIc0lVa2ra2wPDhAkhRGExgfViIE0RjDxLTGxjdx9-G1huW0_HMJG3aYliFMJ-Wl3FvGYjG9RguTSo_n8QvCa3RHU89Mcme7r8jopTWUNW6taiLIb4jkY536cQfNY
 [practica-2]: https://godbolt.org/clientstate/eJx9UttuwjAM_RUrTyAmKCDtYROb-ACkaTxSHtzWVEGp0-WCGIh_n9tyG5OWVkp8zontJOeoPHmvLXv1Aquj0oXM4ydQBrmMWJKEaos7VIJ5G13eIrlB72GBmuGYMsioY2Z0Dj5gkGlndQGV0L1lcJrL1RrQlb5_UTejY2AbSyysgxmkas6YqtebRHMAzDW5YL0Ipg9UHVmID-vmnUYkkwdJZrmBxwLfiNEIPomq2uABIYFaqkdGoH3tyOs0JslmyvAVCXI0eTQEZNpiuKXh3xYElRLJXeXMWkPIILuRD7iggKK4aN9m8Pyrn-W3D1QNbQzDWu4kGO5dbmUgtwJBE1OzGFxztHh3_mGq-q__JktVc6ZsM-_aAYNQSUvvXcq7Ji95TinL3zx5bqtaG3KtPdYC0J7yGKw7-0VeNVbEoQnV_QaJz25q7TMZJ5OGNjq7prJ1OBtPqVNjr1Bo7qK1fD_y783E
