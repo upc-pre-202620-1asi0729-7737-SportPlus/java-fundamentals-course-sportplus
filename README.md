@@ -19,7 +19,7 @@ Cada lección es independiente. Abre solo el archivo de la lección que estés s
 
 - **Conclusiones clave.** `main` es el punto de inicio del programa; `System.out.println` muestra un mensaje en la consola.
 - **Ponlo en práctica.** Completa la instrucción que imprime `¡Bienvenido a Mi Mascota Virtual!`. Después cambia el saludo.
-- **Video:** [Ver lección 1 en YouTube](https://youtu.be/QhxTsC7luYE) · [Archivo original](videos/Leccion1_Completa.mp4).
+- **Video:** [Ver lección 1 en YouTube](https://youtu.be/yQJHZ6PdMqU) · [Archivo original](videos/Leccion1_Completa.mp4).
 - **Empieza a programar:** [HolaMundo.java](starter-files/01-introduccion/HolaMundo.java).
 - **Ejemplo resuelto:** [HolaMundo.java](completed-examples/01-introduccion/HolaMundo.java).
 
@@ -35,7 +35,7 @@ Salida del ejemplo:
 
 - **Conclusiones clave.** Cada variable tiene un tipo; sus valores describen el estado de la mascota.
 - **Ponlo en práctica.** Completa la línea que muestra el nombre y el hambre. Cambia el hambre y vuelve a ejecutar. Como práctica adicional, muestra también la energía.
-- **Video:** [Ver lección 2 en YouTube](https://youtu.be/3nEAZqdIHx8) · [Archivo original](videos/Leccion2_Completa.mp4).
+- **Video:** [Ver lección 2 en YouTube]( https://youtu.be/GGPmxahZjLE) · [Archivo original](videos/Leccion2_Completa.mp4).
 - **Empieza a programar:** [MascotaDemo.java](starter-files/02-variables/MascotaDemo.java).
 - **Ejemplo resuelto:** [MascotaDemo.java](completed-examples/02-variables/MascotaDemo.java).
 
@@ -51,7 +51,7 @@ Pixel tiene 50 de hambre
 
 - **Conclusiones clave.** `if/else` elige qué bloque ejecutar; `for` repite una acción usando un contador.
 - **Ponlo en práctica.** Completa la decisión y el mensaje dentro del bucle. Prueba con hambre de 80, 70 y 50 para observar cuándo cambia el resultado.
-- **Video:** [Ver lección 3 en YouTube](https://youtu.be/dOLICjSqua8) · [Archivo original](videos/Leccion3_Completa.mp4).
+- **Video:** [Ver lección 3 en YouTube](https://youtu.be/zXs4zXGAy3U) · [Archivo original](videos/Leccion3_Completa.mp4).
 - **Empieza a programar:** [ControlDemo.java](starter-files/03-control/ControlDemo.java).
 - **Ejemplo resuelto:** [ControlDemo.java](completed-examples/03-control/ControlDemo.java).
 
@@ -72,7 +72,7 @@ Día 5: cuidando a Pixel
 
 - **Conclusiones clave.** Definir un método permite llamarlo sin repetir sus instrucciones. `Scanner` lee lo que escribe el usuario y `System.out` muestra la respuesta.
 - **Ponlo en práctica.** Completa y llama a `alimentar()`. Lee el nombre y muestra el mensaje de nacimiento. Prueba con `Pixel` y luego con otro nombre.
-- **Video:** [Ver lección 4 en YouTube](https://youtu.be/szYMkF8KEyg) · [Archivo original](videos/Leccion4_Completa.mp4).
+- **Video:** [Ver lección 4 en YouTube](https://youtu.be/Gt3TP8Y5bcg) · [Archivo original](videos/Leccion4_Completa.mp4).
 - **Empieza a programar:** [MetodosDemo.java](starter-files/04-metodos/MetodosDemo.java).
 - **Ejemplo resuelto:** [MetodosDemo.java](completed-examples/04-metodos/MetodosDemo.java).
 
@@ -91,7 +91,7 @@ Pixel fue alimentado.
 - **Conclusiones clave.** Una clase es el modelo de los objetos; el constructor establece su estado inicial. La encapsulación protege los atributos y permite consultarlos mediante métodos públicos.
 - **Comportamientos del video.** `alimentar()` reduce el hambre en 15 sin bajar de 0 y aumenta la energía en 5 sin superar 100. `jugar()` reduce la energía en 10 sin bajar de 0 e incrementa el nivel. Se usan `Math.max` y `Math.min` para respetar esos límites.
 - **Ponlo en práctica.** Completa los métodos y sus llamadas desde `main`. Después crea una segunda mascota o llama dos veces a `jugar()` y comprueba su nivel.
-- **Video:** [Ver lección 5 en YouTube](https://youtu.be/LZpTzt6JXJ0) · [Archivo original](videos/Leccion5_Completa.mp4).
+- **Video:** [Ver lección 5 en YouTube](https://youtu.be/Wo8E5lkh_Cg) · [Archivo original](videos/Leccion5_Completa.mp4).
 - **Empieza a programar:** [Main.java](starter-files/05-poo/Main.java).
 - **Ejemplo resuelto:** [Main.java](completed-examples/05-poo/Main.java).
 
